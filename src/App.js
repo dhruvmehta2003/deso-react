@@ -40,7 +40,7 @@ function App() {
           const postResponse = await deso.posts.submitPost({
             UpdaterPublicKeyBase58Check: deso.identity.getUserKey(),
             BodyObj: {
-              Body: "Hi @DeZoDog, I'm checking out the deso-react app",
+              Body: "Hi Everyone, I'm checking out the deso-react app",
               VideoURLs: [],
               ImageURLs: [],
             },
